@@ -1,0 +1,39 @@
+/*============================================================================================================================
+Navbar */
+
+/* Sets the size of the search bar */
+.fake-input { 
+    position: relative; 
+    width:240px; 
+  }
+    
+  .fake-input input { 
+  
+    border: none;
+    background:#fff; 
+    display:block; 
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  .fake-input img { 
+  
+    position: absolute; 
+    top: 2px; 
+    left: 5px 
+  }
+  
+  input {
+    padding-left: 30px;
+  }
+  
+  
+  /* Sets the attributes of the navbar when scrolling */
+  .sticky {
+    position: fixed;
+    height: 5%;
+    width: 73%;
+  }
+  
+  /*============================================================================================================================
+  */
