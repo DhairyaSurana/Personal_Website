@@ -55,10 +55,8 @@
 
                   <a class="navbar-brand" href="{% url 'home' %}">About Me</a>
 
-                 
-                  
+                  <div id="navbarSupportedContent" class="collapse navbar-collapse">
 
-                  <div id="navbarSupportedContent" class="collapse navbar-collapse" >
                         <ul class="navbar-nav mr-auto">
                               <a class="nav-link" href="{% url 'home' %}">Education</a>
                               <a class="nav-link" href="{% url 'home' %}">Experience</a>
@@ -69,6 +67,9 @@
                   {% block additional_navbar_content %}
                   {% endblock %}
             </nav>
+
+
+            
 
          {% block additional_pages %}
          {% endblock %}

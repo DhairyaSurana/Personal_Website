@@ -45,9 +45,9 @@ Navbar */
     height: auto;
     background: rgb(231, 216, 6);
     box-sizing: border-box;
-    padding: 200px;
+    padding: 175px;
     color: #fff;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   .slantedDivA:after{
@@ -63,4 +63,16 @@ Navbar */
     left: 0;
     transform-origin: top left;
     transform: skewY(4deg);
+  }
+
+
+  #intro {
+    position: absolute;
+    left: 70px;
+  }
+
+  #scroll-down-anchor {
+
+    border-radius: 50%;
+
   }
