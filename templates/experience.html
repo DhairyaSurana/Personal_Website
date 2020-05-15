@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block unique_stylesheet_dependencies %}
+
+    <link rel="stylesheet" href="/static/css/home.css"> </script>
+
+{% endblock %}
+
+{% block additional_navbar_content %}
+
+    <!-- Search bar -->
+    <div class="fake-input">
+        <img src="{{url_for('static', filename='images/searchicon.png')}}" width=25 />  <!-- Search Icon -->
+        <input type="text"  id="entry" placeholder="Search" title="Type in a name">
+    </div>
+
+
+{% endblock %}
+
+{% block additional_pages %}
+
+   <div class="slantedDivA"></div>
+    
+    <div class= "row justify-content-around">
+        <h1 id="intro" class="display-4">Experience</h1>
+    </div>
+
+    <br/><br/><br/><br/><br/>
+    <div class="row justify-content-around">
+        <button id="scroll-down-anchor" type="btn" class="btn btn-outline-dark">
+            <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+        </button>
+    </div>
+        
+  
+
+{% endblock %}
