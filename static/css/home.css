@@ -65,14 +65,28 @@ Navbar */
     transform: skewY(4deg);
   }
 
+  h1 {
+    width: 750px;   /* "display: inline-block" wasn't working */
+  }
 
   #intro {
     position: absolute;
     left: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 750px;   /* "display: inline-block" wasn't working */
   }
 
   #scroll-down-anchor {
 
     border-radius: 50%;
 
+  }
+
+  /*============================================================================================================================
+  Github + LinkedIn Buttons */
+
+  #buttons {
+    display: flex;
+    justify-content: space-around;
   }
