@@ -3350,3 +3350,22 @@
 			display: flex;
 			justify-content: center;
 		}
+
+		.flex-container > div {
+
+			margin: 10px;
+		}
+
+
+		#contact {
+
+			display: flex;
+			flex-direction: column; 
+			align-items: center;
+		}
+
+		#contact > div {
+
+			margin: 1px;
+			width: 200px;
+		}
