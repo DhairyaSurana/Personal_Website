@@ -3369,3 +3369,11 @@
 			margin: 1px;
 			width: 200px;
 		}
+
+		a:link { 
+			text-decoration: none; 
+		}
+
+		a:hover {
+			color: black;
+		}
