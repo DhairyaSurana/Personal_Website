@@ -62,5 +62,5 @@ function startTimer() {
 }
 
 var images = [], x = -1;
-images[0] = "images/extern_badge.JPG";
-images[1] = "images/lspace_cert.JPG";
+images[0] = "images/extern_badge.jpg";
+images[1] = "images/lspace_cert.jpg";
